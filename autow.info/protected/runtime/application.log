@@ -1,0 +1,24 @@
+2013/12/12 21:15:01 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sql419912.tbl_sys_message' doesn't exist. The SQL statement executed was: SELECT id FROM tbl_sys_message order by update_time DESC.
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (131)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sql419912.tbl_sys_message' doesn't exist. The SQL statement executed was: SELECT id FROM tbl_sys_message order by update_time DESC' in /var/www/yii_tutorial/yii/framework/db/CDbCommand.php:541
+Stack trace:
+#0 /var/www/yii_tutorial/yii/framework/db/CDbCommand.php(414): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /var/www/yii_tutorial/yii/framework/caching/dependencies/CDbCacheDependency.php(87): CDbCommand->queryRow()
+#2 /var/www/yii_tutorial/yii/framework/caching/dependencies/CCacheDependency.php(61): CDbCacheDependency->generateDependentData()
+#3 /var/www/yii_tutorial/yii/framework/caching/CCache.php(178): CCacheDependency->evaluateDependency()
+#4 /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php(131): CCache->set('AutoWorldInfo.S...', Object(SysMessage), 0, Object(CDbCacheDependency))
+#5 /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php(34): SysMessage::getLatest()
+#6 /var/www/yii_tutorial/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /var/www/yii_tutorial/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/yii_tutorial/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/yii_tutorial/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/yii_tutorial/yii/framework/web/CWebApplication.php(282): CController->run('')
+#11 /var/www/yii_tutorial/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /var/www/yii_tutorial/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#13 /var/www/yii_tutorial/autow.info/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/autow.info/
+HTTP_REFERER=http://tutorial.localhost/
+---

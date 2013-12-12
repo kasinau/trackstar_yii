@@ -1,4 +1,4 @@
-trackstar_yii
-=============
+yii_tutorial
+============
 
-trackstar_yii
+yii_tutorial

@@ -1,0 +1,388 @@
+2013/12/12 21:15:00 [trace] [system.CModule] Loading "log" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:00 [trace] [system.CModule] Loading "request" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:00 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:00 [trace] [system.CModule] Loading "cache" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:00 [trace] [system.caching.CFileCache] Saving "Yii.CUrlManager.rules" to cache
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:00 [trace] [system.CModule] Loading "authManager" application component
+in /var/www/yii_tutorial/autow.info/protected/models/AutoWActiveRecord.php (17)
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (23)
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (120)
+2013/12/12 21:15:00 [trace] [system.CModule] Loading "db" application component
+in /var/www/yii_tutorial/autow.info/protected/models/AutoWActiveRecord.php (17)
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (23)
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (120)
+2013/12/12 21:15:00 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/yii_tutorial/autow.info/protected/models/AutoWActiveRecord.php (17)
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (23)
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (120)
+2013/12/12 21:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `sys_message`
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (23)
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (120)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+2013/12/12 21:15:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `sys_message`
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (23)
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (120)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+2013/12/12 21:15:01 [trace] [system.db.ar.CActiveRecord] SysMessage.find()
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (124)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `sys_message` `t` ORDER BY t.update_time DESC LIMIT 1
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (124)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:01 [trace] [system.caching.CFileCache] Saving "AutoWorldInfo.SystemMessage" to cache
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (131)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT id FROM tbl_sys_message order by update_time DESC
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (131)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:01 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (131)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:01 [trace] [system.CModule] Loading "errorHandler" application component
+2013/12/12 21:15:01 [trace] [system.CModule] Loading "themeManager" application component
+2013/12/12 21:15:53 [trace] [system.CModule] Loading "log" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:53 [trace] [system.CModule] Loading "request" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:53 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:53 [trace] [system.CModule] Loading "cache" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:53 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:53 [trace] [system.CModule] Loading "authManager" application component
+in /var/www/yii_tutorial/autow.info/protected/models/AutoWActiveRecord.php (17)
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (23)
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (120)
+2013/12/12 21:15:53 [trace] [system.CModule] Loading "db" application component
+in /var/www/yii_tutorial/autow.info/protected/models/AutoWActiveRecord.php (17)
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (23)
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (120)
+2013/12/12 21:15:53 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/yii_tutorial/autow.info/protected/models/AutoWActiveRecord.php (17)
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (23)
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (120)
+2013/12/12 21:15:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `sys_message`
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (23)
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (120)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+2013/12/12 21:15:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `sys_message`
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (23)
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (120)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+2013/12/12 21:15:54 [trace] [system.db.ar.CActiveRecord] SysMessage.find()
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (124)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `sys_message` `t` ORDER BY t.update_time DESC LIMIT 1
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (124)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:54 [trace] [system.caching.CFileCache] Saving "AutoWorldInfo.SystemMessage" to cache
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (131)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT id FROM sys_message order by update_time DESC
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (131)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:54 [trace] [system.db.CDbConnection] Closing DB connection
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (131)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:54 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:54 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/yii_tutorial/autow.info/protected/views/site/index.php (12)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:54 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (2)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:15:54 [trace] [system.CModule] Loading "user" application component
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 21:15:54 [trace] [system.CModule] Loading "session" application component
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 21:15:54 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 21:15:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 21:15:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 21:15:54 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 21:15:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 21:15:55 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (60)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 21:15:55 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:22:54 [trace] [system.CModule] Loading "log" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:22:54 [trace] [system.CModule] Loading "request" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:22:54 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:22:54 [trace] [system.CModule] Loading "cache" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:22:54 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:22:54 [trace] [system.CModule] Loading "db" application component
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (111)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:22:54 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (111)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:22:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT id FROM sys_message order by update_time DESC
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (111)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:22:54 [trace] [system.caching.CFileCache] Serving "AutoWorldInfo.SystemMessage" from cache
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (111)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:22:54 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:22:54 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/yii_tutorial/autow.info/protected/views/site/index.php (12)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:22:54 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (2)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 21:22:54 [trace] [system.CModule] Loading "authManager" application component
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 21:22:54 [trace] [system.CModule] Loading "user" application component
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 21:22:54 [trace] [system.CModule] Loading "session" application component
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 21:22:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 21:22:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 21:22:54 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 21:22:54 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 21:22:55 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (60)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 21:22:55 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:06:02 [trace] [system.CModule] Loading "log" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:06:02 [trace] [system.CModule] Loading "request" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:06:02 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:06:02 [trace] [system.CModule] Loading "cache" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:06:02 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:06:02 [trace] [system.CModule] Loading "db" application component
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (111)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:06:02 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (111)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:06:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT id FROM sys_message order by update_time DESC
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (111)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:06:03 [trace] [system.caching.CFileCache] Serving "AutoWorldInfo.SystemMessage" from cache
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (111)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:06:03 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:06:03 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/yii_tutorial/autow.info/protected/views/site/index.php (12)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:06:03 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (2)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:06:03 [trace] [system.CModule] Loading "authManager" application component
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 22:06:03 [trace] [system.CModule] Loading "user" application component
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 22:06:03 [trace] [system.CModule] Loading "session" application component
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 22:06:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 22:06:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 22:06:03 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 22:06:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 22:06:03 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (60)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 22:06:03 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:10:09 [trace] [system.CModule] Loading "log" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:10:09 [trace] [system.CModule] Loading "request" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:10:09 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:10:09 [trace] [system.CModule] Loading "cache" application component
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:10:09 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:10:09 [trace] [system.CModule] Loading "db" application component
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (111)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:10:09 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (111)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:10:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT id FROM sys_message order by update_time DESC
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (111)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:10:10 [trace] [system.caching.CFileCache] Serving "AutoWorldInfo.SystemMessage" from cache
+in /var/www/yii_tutorial/autow.info/protected/modules/admin/models/SysMessage.php (111)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (34)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:10:10 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:10:10 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/yii_tutorial/autow.info/protected/views/site/index.php (12)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:10:10 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (2)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+in /var/www/yii_tutorial/autow.info/index.php (13)
+2013/12/12 22:10:10 [trace] [system.CModule] Loading "authManager" application component
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 22:10:10 [trace] [system.CModule] Loading "user" application component
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 22:10:10 [trace] [system.CModule] Loading "session" application component
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 22:10:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 22:10:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 22:10:10 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 22:10:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 22:10:10 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/yii_tutorial/autow.info/themes/new/views/layouts/main.php (60)
+in /var/www/yii_tutorial/autow.info/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+2013/12/12 22:10:10 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/yii_tutorial/autow.info/protected/controllers/SiteController.php (48)
+in /var/www/yii_tutorial/autow.info/index.php (13)

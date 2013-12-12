@@ -1,0 +1,689 @@
+2013/12/09 21:53:27 [trace] [system.CModule] Loading "log" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:27 [trace] [system.CModule] Loading "request" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:27 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:27 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (99)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:27 [trace] [system.CModule] Loading "user" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (102)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:27 [trace] [system.CModule] Loading "session" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (102)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:27 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:27 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/yii_tutorial/trackstar/protected/views/site/login.php (23)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:27 [trace] [system.CModule] Loading "messages" application component
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (39)
+in /var/www/yii_tutorial/trackstar/protected/views/site/login.php (28)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:53:27 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/yii_tutorial/trackstar/protected/views/site/login.php (30)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:27 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/yii_tutorial/trackstar/protected/views/site/login.php (52)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:27 [trace] [system.CModule] Loading "authManager" application component
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:53:27 [trace] [system.CModule] Loading "db" application component
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:53:27 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:53:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:53:28 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:53:28 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:53:28 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:53:28 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:30 [trace] [system.CModule] Loading "log" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:30 [trace] [system.CModule] Loading "request" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:30 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:30 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (99)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:30 [trace] [system.CModule] Loading "user" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (102)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:30 [trace] [system.CModule] Loading "session" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (102)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:30 [trace] [system.CModule] Loading "db" application component
+in /var/www/yii_tutorial/trackstar/protected/models/User.php (36)
+in /var/www/yii_tutorial/trackstar/protected/components/UserIdentity.php (21)
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (54)
+2013/12/09 21:53:30 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/yii_tutorial/trackstar/protected/models/User.php (36)
+in /var/www/yii_tutorial/trackstar/protected/components/UserIdentity.php (21)
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (54)
+2013/12/09 21:53:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in /var/www/yii_tutorial/trackstar/protected/models/User.php (36)
+in /var/www/yii_tutorial/trackstar/protected/components/UserIdentity.php (21)
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (54)
+2013/12/09 21:53:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in /var/www/yii_tutorial/trackstar/protected/models/User.php (36)
+in /var/www/yii_tutorial/trackstar/protected/components/UserIdentity.php (21)
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (54)
+2013/12/09 21:53:31 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /var/www/yii_tutorial/trackstar/protected/components/UserIdentity.php (25)
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (54)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (120)
+2013/12/09 21:53:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in /var/www/yii_tutorial/trackstar/protected/components/UserIdentity.php (25)
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (54)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (120)
+2013/12/09 21:53:31 [trace] [system.db.ar.CActiveRecord] User.updateByPk()
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (79)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (120)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:31 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `tbl_user` SET `last_login_time`=NOW() WHERE `tbl_user`.`id`=1
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (79)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (120)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:31 [info] [application.controllers.SiteController] Successful login of user: 1
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (125)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:31 [trace] [system.CModule] Loading "log" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:31 [trace] [system.CModule] Loading "request" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:31 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:31 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (99)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:31 [trace] [system.CModule] Loading "user" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (102)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:31 [trace] [system.CModule] Loading "session" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (102)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:31 [trace] [system.CModule] Loading "log" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:31 [trace] [system.CModule] Loading "request" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:31 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:31 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:31 [trace] [system.CModule] Loading "user" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:31 [trace] [system.CModule] Loading "session" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:31 [trace] [system.CModule] Loading "db" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (165)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:31 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (165)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_project`
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (165)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (165)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:32 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (166)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_sys_message`
+in /var/www/yii_tutorial/trackstar/protected/modules/admin/models/SysMessage.php (23)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (175)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_sys_message`
+in /var/www/yii_tutorial/trackstar/protected/modules/admin/models/SysMessage.php (23)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (175)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:32 [trace] [system.db.ar.CActiveRecord] SysMessage.find()
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (179)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_sys_message` `t` ORDER BY t.update_time DESC LIMIT 1
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (179)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:32 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (40)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:32 [trace] [system.db.ar.CActiveRecord] Project.count()
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (40)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_project` `t`
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (40)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:32 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (40)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` LIMIT 10
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (40)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:32 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (40)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:32 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (40)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:53:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in /var/www/yii_tutorial/trackstar/protected/models/Comment.php (28)
+in /var/www/yii_tutorial/trackstar/protected/components/RecentComments.php (33)
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (44)
+2013/12/09 21:53:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in /var/www/yii_tutorial/trackstar/protected/models/Comment.php (28)
+in /var/www/yii_tutorial/trackstar/protected/components/RecentComments.php (33)
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (44)
+2013/12/09 21:53:32 [trace] [system.db.ar.CActiveRecord] Comment.findAll()
+in /var/www/yii_tutorial/trackstar/protected/models/Comment.php (132)
+in /var/www/yii_tutorial/trackstar/protected/components/RecentComments.php (35)
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (44)
+2013/12/09 21:53:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_issue`
+in /var/www/yii_tutorial/trackstar/protected/models/Comment.php (132)
+in /var/www/yii_tutorial/trackstar/protected/components/RecentComments.php (35)
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (44)
+2013/12/09 21:53:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in /var/www/yii_tutorial/trackstar/protected/models/Comment.php (132)
+in /var/www/yii_tutorial/trackstar/protected/components/RecentComments.php (35)
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (44)
+2013/12/09 21:53:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in /var/www/yii_tutorial/trackstar/protected/models/Comment.php (132)
+in /var/www/yii_tutorial/trackstar/protected/components/RecentComments.php (35)
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (44)
+2013/12/09 21:53:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in /var/www/yii_tutorial/trackstar/protected/models/Comment.php (132)
+in /var/www/yii_tutorial/trackstar/protected/components/RecentComments.php (35)
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (44)
+2013/12/09 21:53:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`content` AS `t0_c1`, `t`.`issue_id` AS `t0_c2`, `t`.`create_time` AS `t0_c3`, `t`.`create_user_id` AS `t0_c4`, `t`.`update_time` AS `t0_c5`, `t`.`update_user_id` AS `t0_c6`, `issue`.`id` AS `t1_c0`, `issue`.`name` AS `t1_c1`, `issue`.`description` AS `t1_c2`, `issue`.`project_id` AS `t1_c3`, `issue`.`type_id` AS `t1_c4`, `issue`.`status_id` AS `t1_c5`, `issue`.`owner_id` AS `t1_c6`, `issue`.`requester_id` AS `t1_c7`, `issue`.`create_time` AS `t1_c8`, `issue`.`create_user_id` AS `t1_c9`, `issue`.`update_time` AS `t1_c10`, `issue`.`update_user_id` AS `t1_c11`, `author`.`id` AS `t2_c0`, `author`.`email` AS `t2_c1`, `author`.`username` AS `t2_c2`, `author`.`password` AS `t2_c3`, `author`.`last_login_time` AS `t2_c4`, `author`.`create_time` AS `t2_c5`, `author`.`create_user_id` AS `t2_c6`, `author`.`update_time` AS `t2_c7`, `author`.`update_user_id` AS `t2_c8` FROM `tbl_comment` `t`  LEFT OUTER JOIN `tbl_issue` `issue` ON (`t`.`issue_id`=`issue`.`id`)  LEFT OUTER JOIN `tbl_user` `author` ON (`t`.`create_user_id`=`author`.`id`)  ORDER BY t.create_time DESC LIMIT 5
+in /var/www/yii_tutorial/trackstar/protected/models/Comment.php (132)
+in /var/www/yii_tutorial/trackstar/protected/components/RecentComments.php (35)
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (44)
+2013/12/09 21:53:33 [trace] [system.CModule] Loading "authManager" application component
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column2.php (22)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+2013/12/09 21:53:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column2.php (22)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+2013/12/09 21:53:33 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column2.php (22)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+2013/12/09 21:53:33 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column2.php (22)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "log" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "request" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "user" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (142)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "session" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (142)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "log" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "request" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "user" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "session" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "log" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "request" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (99)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "user" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (102)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "session" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (102)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/yii_tutorial/trackstar/protected/views/site/login.php (23)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "messages" application component
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (39)
+in /var/www/yii_tutorial/trackstar/protected/views/site/login.php (28)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/yii_tutorial/trackstar/protected/views/site/login.php (30)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/yii_tutorial/trackstar/protected/views/site/login.php (52)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "authManager" application component
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:59:12 [trace] [system.CModule] Loading "db" application component
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:59:12 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:59:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:59:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:59:14 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:59:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:59:14 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:19 [trace] [system.CModule] Loading "log" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:19 [trace] [system.CModule] Loading "request" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:19 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:19 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (99)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:19 [trace] [system.CModule] Loading "user" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (102)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:19 [trace] [system.CModule] Loading "session" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (102)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:19 [trace] [system.CModule] Loading "db" application component
+in /var/www/yii_tutorial/trackstar/protected/models/User.php (36)
+in /var/www/yii_tutorial/trackstar/protected/components/UserIdentity.php (21)
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (54)
+2013/12/09 21:59:19 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/yii_tutorial/trackstar/protected/models/User.php (36)
+in /var/www/yii_tutorial/trackstar/protected/components/UserIdentity.php (21)
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (54)
+2013/12/09 21:59:19 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in /var/www/yii_tutorial/trackstar/protected/models/User.php (36)
+in /var/www/yii_tutorial/trackstar/protected/components/UserIdentity.php (21)
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (54)
+2013/12/09 21:59:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in /var/www/yii_tutorial/trackstar/protected/models/User.php (36)
+in /var/www/yii_tutorial/trackstar/protected/components/UserIdentity.php (21)
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (54)
+2013/12/09 21:59:20 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /var/www/yii_tutorial/trackstar/protected/components/UserIdentity.php (25)
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (54)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (120)
+2013/12/09 21:59:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in /var/www/yii_tutorial/trackstar/protected/components/UserIdentity.php (25)
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (54)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (120)
+2013/12/09 21:59:20 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:20 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/yii_tutorial/trackstar/protected/views/site/login.php (23)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:20 [trace] [system.CModule] Loading "messages" application component
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (39)
+in /var/www/yii_tutorial/trackstar/protected/views/site/login.php (28)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:59:20 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/yii_tutorial/trackstar/protected/views/site/login.php (30)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:20 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/yii_tutorial/trackstar/protected/views/site/login.php (52)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 21:59:20 [trace] [system.CModule] Loading "authManager" application component
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:59:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:59:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:59:20 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:59:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/09 21:59:20 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:29 [trace] [system.CModule] Loading "log" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:29 [trace] [system.CModule] Loading "request" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:29 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:29 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (99)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:29 [trace] [system.CModule] Loading "user" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (102)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:29 [trace] [system.CModule] Loading "session" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (102)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:29 [trace] [system.CModule] Loading "db" application component
+in /var/www/yii_tutorial/trackstar/protected/models/User.php (36)
+in /var/www/yii_tutorial/trackstar/protected/components/UserIdentity.php (21)
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (54)
+2013/12/09 22:04:29 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/yii_tutorial/trackstar/protected/models/User.php (36)
+in /var/www/yii_tutorial/trackstar/protected/components/UserIdentity.php (21)
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (54)
+2013/12/09 22:04:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in /var/www/yii_tutorial/trackstar/protected/models/User.php (36)
+in /var/www/yii_tutorial/trackstar/protected/components/UserIdentity.php (21)
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (54)
+2013/12/09 22:04:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in /var/www/yii_tutorial/trackstar/protected/models/User.php (36)
+in /var/www/yii_tutorial/trackstar/protected/components/UserIdentity.php (21)
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (54)
+2013/12/09 22:04:29 [trace] [system.db.ar.CActiveRecord] User.findByAttributes()
+in /var/www/yii_tutorial/trackstar/protected/components/UserIdentity.php (25)
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (54)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (120)
+2013/12/09 22:04:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_user` `t` WHERE `t`.`username`=:yp0 LIMIT 1
+in /var/www/yii_tutorial/trackstar/protected/components/UserIdentity.php (25)
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (54)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (120)
+2013/12/09 22:04:29 [trace] [system.db.ar.CActiveRecord] User.updateByPk()
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (79)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (120)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:29 [trace] [system.db.CDbCommand] Executing SQL: UPDATE `tbl_user` SET `last_login_time`=NOW() WHERE `tbl_user`.`id`=1
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (79)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (120)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:29 [info] [application.controllers.SiteController] Successful login of user: 1
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (125)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:29 [trace] [system.CModule] Loading "log" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:29 [trace] [system.CModule] Loading "request" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:29 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:29 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:29 [trace] [system.CModule] Loading "user" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:29 [trace] [system.CModule] Loading "session" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:29 [trace] [system.CModule] Loading "db" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (165)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:29 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (165)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_project`
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (165)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (165)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:30 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (166)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_sys_message`
+in /var/www/yii_tutorial/trackstar/protected/modules/admin/models/SysMessage.php (23)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (175)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_sys_message`
+in /var/www/yii_tutorial/trackstar/protected/modules/admin/models/SysMessage.php (23)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (175)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:30 [trace] [system.db.ar.CActiveRecord] SysMessage.find()
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (179)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_sys_message` `t` ORDER BY t.update_time DESC LIMIT 1
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (179)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:30 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:30 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (40)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:30 [trace] [system.db.ar.CActiveRecord] Project.count()
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (40)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_project` `t`
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (40)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:30 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (40)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` LIMIT 10
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (40)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:30 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (40)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:30 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (40)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/09 22:04:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in /var/www/yii_tutorial/trackstar/protected/models/Comment.php (28)
+in /var/www/yii_tutorial/trackstar/protected/components/RecentComments.php (33)
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (44)
+2013/12/09 22:04:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in /var/www/yii_tutorial/trackstar/protected/models/Comment.php (28)
+in /var/www/yii_tutorial/trackstar/protected/components/RecentComments.php (33)
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (44)
+2013/12/09 22:04:31 [trace] [system.db.ar.CActiveRecord] Comment.findAll()
+in /var/www/yii_tutorial/trackstar/protected/models/Comment.php (132)
+in /var/www/yii_tutorial/trackstar/protected/components/RecentComments.php (35)
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (44)
+2013/12/09 22:04:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_issue`
+in /var/www/yii_tutorial/trackstar/protected/models/Comment.php (132)
+in /var/www/yii_tutorial/trackstar/protected/components/RecentComments.php (35)
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (44)
+2013/12/09 22:04:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in /var/www/yii_tutorial/trackstar/protected/models/Comment.php (132)
+in /var/www/yii_tutorial/trackstar/protected/components/RecentComments.php (35)
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (44)
+2013/12/09 22:04:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in /var/www/yii_tutorial/trackstar/protected/models/Comment.php (132)
+in /var/www/yii_tutorial/trackstar/protected/components/RecentComments.php (35)
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (44)
+2013/12/09 22:04:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in /var/www/yii_tutorial/trackstar/protected/models/Comment.php (132)
+in /var/www/yii_tutorial/trackstar/protected/components/RecentComments.php (35)
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (44)
+2013/12/09 22:04:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`content` AS `t0_c1`, `t`.`issue_id` AS `t0_c2`, `t`.`create_time` AS `t0_c3`, `t`.`create_user_id` AS `t0_c4`, `t`.`update_time` AS `t0_c5`, `t`.`update_user_id` AS `t0_c6`, `issue`.`id` AS `t1_c0`, `issue`.`name` AS `t1_c1`, `issue`.`description` AS `t1_c2`, `issue`.`project_id` AS `t1_c3`, `issue`.`type_id` AS `t1_c4`, `issue`.`status_id` AS `t1_c5`, `issue`.`owner_id` AS `t1_c6`, `issue`.`requester_id` AS `t1_c7`, `issue`.`create_time` AS `t1_c8`, `issue`.`create_user_id` AS `t1_c9`, `issue`.`update_time` AS `t1_c10`, `issue`.`update_user_id` AS `t1_c11`, `author`.`id` AS `t2_c0`, `author`.`email` AS `t2_c1`, `author`.`username` AS `t2_c2`, `author`.`password` AS `t2_c3`, `author`.`last_login_time` AS `t2_c4`, `author`.`create_time` AS `t2_c5`, `author`.`create_user_id` AS `t2_c6`, `author`.`update_time` AS `t2_c7`, `author`.`update_user_id` AS `t2_c8` FROM `tbl_comment` `t`  LEFT OUTER JOIN `tbl_issue` `issue` ON (`t`.`issue_id`=`issue`.`id`)  LEFT OUTER JOIN `tbl_user` `author` ON (`t`.`create_user_id`=`author`.`id`)  ORDER BY t.create_time DESC LIMIT 5
+in /var/www/yii_tutorial/trackstar/protected/models/Comment.php (132)
+in /var/www/yii_tutorial/trackstar/protected/components/RecentComments.php (35)
+in /var/www/yii_tutorial/trackstar/protected/views/project/index.php (44)
+2013/12/09 22:04:31 [trace] [system.CModule] Loading "authManager" application component
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column2.php (22)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+2013/12/09 22:04:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column2.php (22)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+2013/12/09 22:04:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column2.php (22)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+2013/12/09 22:04:31 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column2.php (22)
+in /var/www/yii_tutorial/trackstar/protected/controllers/ProjectController.php (189)
+2013/12/10 20:27:03 [trace] [system.CModule] Loading "log" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/10 20:27:03 [trace] [system.CModule] Loading "request" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/10 20:27:03 [trace] [system.CModule] Loading "urlManager" application component
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/10 20:27:03 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (99)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/10 20:27:03 [trace] [system.CModule] Loading "user" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (102)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/10 20:27:03 [trace] [system.CModule] Loading "session" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (102)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/10 20:27:03 [trace] [system.CModule] Loading "themeManager" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/10 20:27:03 [trace] [system.CModule] Loading "widgetFactory" application component
+in /var/www/yii_tutorial/trackstar/protected/views/site/login.php (23)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/10 20:27:03 [trace] [system.CModule] Loading "messages" application component
+in /var/www/yii_tutorial/trackstar/protected/models/LoginForm.php (39)
+in /var/www/yii_tutorial/trackstar/protected/views/site/login.php (28)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/10 20:27:03 [trace] [system.CModule] Loading "coreMessages" application component
+in /var/www/yii_tutorial/trackstar/protected/views/site/login.php (30)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/10 20:27:03 [trace] [system.CModule] Loading "clientScript" application component
+in /var/www/yii_tutorial/trackstar/protected/views/site/login.php (52)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)
+2013/12/10 20:27:03 [trace] [system.CModule] Loading "authManager" application component
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/10 20:27:03 [trace] [system.CModule] Loading "db" application component
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/10 20:27:03 [trace] [system.db.CDbConnection] Opening DB connection
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/10 20:27:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/10 20:27:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/10 20:27:04 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/10 20:27:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT `parent`
+FROM `AuthItemChild`
+WHERE child=:name
+in /var/www/yii_tutorial/trackstar/themes/new/views/layouts/main.php (40)
+in /var/www/yii_tutorial/trackstar/protected/views/layouts/column1.php (6)
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+2013/12/10 20:27:04 [trace] [system.CModule] Loading "assetManager" application component
+in /var/www/yii_tutorial/trackstar/protected/controllers/SiteController.php (134)
+in /var/www/yii_tutorial/trackstar/index.php (13)

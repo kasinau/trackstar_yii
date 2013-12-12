@@ -1,0 +1,212 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    color: #555555;
+    font: normal 10pt Arial, Helvetica, sans-serif;
+    background: #d6d6d6;
+    /*background: #d6d6d6 url("background.gif") repeat-y center top;*/
+}
+#page
+{
+    margin-bottom: 20px;
+    background: #ffffff;
+    border: 1px solid #898989;
+    border-top: none;
+    border-bottom: none;
+}
+#header
+{
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    background: #999999;
+    /*background: white url("header.jpg") no-repeat left top;*/
+    border-bottom: 1px solid #898989;
+}
+#content
+{
+    padding: 20px;
+}
+#sidebar
+{
+    padding: 20px 20px 20px 0;
+}
+#footer
+{
+    padding: 10px;
+    margin: 10px 20px;
+    font-size: 0.8em;
+    text-align: center;
+    border-top: 1px solid #C9E0ED;
+}
+#logo
+{
+    padding: 10px 20px;
+    font-size: 200%;
+    /* hides logo text */
+    /*text-indent: -5000px;*/
+}
+#mainmenu
+{
+    background: white;
+    /*background: white url("bg2.gif") repeat-x left top;*/
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #7D7D7D;
+}
+#mainmenu ul
+{
+    padding: 6px 20px 5px 20px;
+    margin: 0px;
+}
+#mainmenu ul li
+{
+    display: inline;
+}
+#mainmenu ul li a
+{
+    color: #333333;
+    background-color: transparent;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 8px;
+}
+#mainmenu ul li a:hover, #mainmenu ul li a:active
+{
+    color: #d11e1e;
+    background-color: #CCCCCC;
+    text-decoration: none;
+}
+div.flash-error, div.flash-notice, div.flash-success
+{
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: 2px solid #dddddd;
+}
+div.flash-error
+{
+    background: #FBE3E4;
+    color: #8a1f11;
+    border-color: #FBC2C4;
+}
+div.flash-notice
+{
+    background: #FFF6BF;
+    color: #514721;
+    border-color: #FFD324;
+}
+div.flash-success
+{
+    background: #E6EFC2;
+    color: #264409;
+    border-color: #C6D880;
+}
+div.flash-error a
+{
+    color: #8a1f11;
+}
+div.flash-notice a
+{
+    color: #514721;
+}
+div.flash-success a
+{
+    color: #264409;
+}
+div.form .rememberMe label
+{
+    display: inline;
+}
+div.view
+{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #C9E0ED;
+}
+div.breadcrumbs
+{
+    font-size: 0.9em;
+    padding: 10px 20px;
+}
+div.breadcrumbs span
+{
+    font-weight: bold;
+}
+div.search-form
+{
+    padding: 10px;
+    margin:  10px 0;
+    background: #EEEEEE;
+}
+.portlet
+{}
+.portlet-decoration
+{
+    padding: 3px 8px;
+    background: white;
+    /*background: white url("bg2.gif") repeat-x left top;*/
+}
+.portlet-title
+{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+}
+.portlet-content
+{
+    font-size: 0.9em;
+    margin: 0 0 15px 0;
+    padding: 5px 8px;
+    background: #CCCCCC;
+}
+.portlet-content ul
+{
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.portlet-content li
+{
+    padding: 2px 0 4px 0;
+}
+.operations
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.operations li
+{
+    padding-bottom: 2px;
+}
+.operations li a
+{
+    font: bold 12px Arial;
+    color: #0066A4;
+    display: block;
+    padding: 2px 0 2px 8px;
+    line-height: 15px;
+    text-decoration: none;
+}
+.operations li a:visited
+{
+    color: #d11e1e;
+}
+.operations li a:hover
+{
+    background: #FFFFFF;
+}
+div.sys-message
+{
+    padding:.8em;
+    margin-bottom:1em;
+    border:3px solid #ddd;
+    background:#9EEFFF;
+    color:#FF330A;
+    border-color:#00849E;
+}

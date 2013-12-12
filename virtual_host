@@ -1,0 +1,10 @@
+<VirtualHost *:80>
+    ServerName tutorial.localhost
+    DocumentRoot /var/www/hosts/yii/yii_tutorial
+    SetEnv APPLICATION_ENV "development"
+    <Directory /var/www/hosts/yii/yii_tutorial>
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    </Directory>
+</VirtualHost>
